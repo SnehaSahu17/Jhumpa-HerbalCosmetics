@@ -29,18 +29,3 @@ font-style: normal;
 font-weight: 700;
 line-height: 21.491px; /* 120.833% */
 }
- /* <div
-          onClick={() => setNav(!nav)}
-          className="cursor-pointer text-[#FFFFFF]  z-10 sm:hidden"
-        >
-          {nav ? (
-            <>
-              <FaTimes size={30} />
-              
-            </>
-          ) : (
-            <FaBars size={30} />
-          )}
-        </div> */
-
-        {/* <Sidebar /> */}
