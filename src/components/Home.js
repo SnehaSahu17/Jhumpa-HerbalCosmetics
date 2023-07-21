@@ -18,9 +18,9 @@ function Home() {
         </button>
       </div>
       {/* card */}
-      {/* <div className="w-[90vw]"><Card/></div> */}
+      <div className="w-[90vw]"><Card/></div>
         {/* Details */}
-      {/* <Details /> */}
+      <Details />
       <Banner/>
     </div>
   );
