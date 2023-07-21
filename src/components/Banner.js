@@ -2,7 +2,7 @@ import React from "react";
 
 function Banner() {
   return (
-    <div className="my-40 grid grid-cols-3 gap-32 mx-auto">
+    <div className="mt-40 grid grid-cols-3 gap-32 mx-auto">
       <div className=" w-full h-fit flex flex-col justify-center items-center">
         <img src="https://res.cloudinary.com/dkqxnquga/image/upload/v1689921949/Isolation_Mode_egzvad.png"></img>
         <h1 className="py-4 text-[#318458] text-center text-5xl font-bold tracking-[-0.5px]">

@@ -7,7 +7,7 @@ import { HiSearch } from "react-icons/hi";
 
 function Home() {
   return (
-    <div className="h-fit  flex flex-col justify-center items-center">
+    <div className="h-fit flex flex-col justify-center items-center">
       {/* Searchbar */}
       <div className="w-[45vw] h-16 bg-[#173D28] rounded-full flex justify-between items-center">
         <p className="text-[#A8A8A8] text-lg font-medium tracking-widest font-jakarta ml-4">

@@ -7,7 +7,7 @@ import Sidebar from "./Sidebar";
 function Navbar() {
   const [nav, setNav] = useState(false);
   return (
-    <div className="w-full h-40 bg-[#1A1A1A] webColor sticky">
+    <div className="w-full h-40 bg-[#1A1A1A] webColor ">
       <div className="w-full h-32 navbar px-4 xl:px-32 pt-5 ">
         <div className="w-full h-24 webColor items-center justify-between hidden md:inline-flex">
           <div className="flex justify-center items-center md:gap-10 lg:gap-14 font-semibold text-xl text-black font-lato tracking-[-0.63px]">
