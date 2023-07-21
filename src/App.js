@@ -4,17 +4,19 @@ import Home from './components/Home';
 import Products from './components/Products';
 import Footer from './components/Footer';
 import Aboutus from './components/Aboutus';
+import Investor from './components/Investor';
 
 function App() {
   return (
     <div className="w-full h-full webColor relative">
       <Navbar />
-      <Home />
-      <Aboutus/>
+      {/* <Home /> */}
+      <Investor/>
+      {/* <Aboutus/> */}
       {/* <Products/> */}
-      <div className="bg-[#173D28]">
+      {/* <div className="bg-[#173D28]">
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }
