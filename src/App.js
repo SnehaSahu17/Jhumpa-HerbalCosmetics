@@ -5,18 +5,24 @@ import Products from './components/Products';
 import Footer from './components/Footer';
 import Aboutus from './components/Aboutus';
 import Investor from './components/Investor';
+import ProdOne from './components/ProdOne';
 
 function App() {
   return (
     <div className="w-full h-full webColor relative">
+
       <Navbar />
-      {/* <Home /> */}
+
+      <Home />
+      <Products/>
+      <ProdOne/>
       <Investor/>
-      {/* <Aboutus/> */}
-      {/* <Products/> */}
-      {/* <div className="bg-[#173D28]">
+      <Aboutus/>
+
+      <div className="bg-[#173D28]">
         <Footer />
-      </div> */}
+      </div>
+
     </div>
   );
 }
