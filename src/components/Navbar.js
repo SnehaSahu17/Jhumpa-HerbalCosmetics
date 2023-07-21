@@ -7,10 +7,10 @@ import Sidebar from "./Sidebar";
 function Navbar() {
   const [nav, setNav] = useState(false);
   return (
-    <div className="w-full h-40 bg-[#1A1A1A] webColor fixed ">
+    <div className="w-full h-40 bg-[#1A1A1A] webColor sticky">
       <div className="w-full h-32 navbar px-4 xl:px-32 pt-5 ">
         <div className="w-full h-24 webColor items-center justify-between hidden md:inline-flex">
-          <div className="flex justify-center items-center md:gap-10 lg:gap-14 navFont">
+          <div className="flex justify-center items-center md:gap-10 lg:gap-14 font-semibold text-xl text-black font-lato tracking-[-0.63px]">
             <div>
               <img
                 src="https://res.cloudinary.com/dkqxnquga/image/upload/v1689879606/Layer_4_nmkspq.png"
@@ -23,8 +23,8 @@ function Navbar() {
             <div className="cursor-pointer">About Us</div>
           </div>
 
-          <button className="w-44 h-12 bg-[#318458] rounded-3xl">
-            <p className="buynow">BUY NOW</p>
+          <button className="w-44 h-12 bg-[#318458] rounded-full">
+            <p className="text-white text-center font-bold text-lg font-sans">BUY NOW</p>
           </button>
         </div>
         <div className="w-full h-24 webColor items-center justify-between md:hidden inline-flex">
