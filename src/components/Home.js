@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Details from "./Details";
+import Banner from "./Banner";
 
 import { HiSearch } from "react-icons/hi";
 
@@ -17,8 +18,10 @@ function Home() {
         </button>
       </div>
       {/* card */}
-      <div className="w-[90vw]"><Card/></div>
-      <Details />
+      {/* <div className="w-[90vw]"><Card/></div> */}
+        {/* Details */}
+      {/* <Details /> */}
+      <Banner/>
     </div>
   );
 }
