@@ -6,7 +6,11 @@ module.exports = {
     fontFamily: {
       lato: ["Lato", "sans-serif"],
       sans: ["Proxima Nova"],
-      jakarta:["Plus Jakarta Sans", "sans-serif"]
+      jakarta: ["Plus Jakarta Sans", "sans-serif"],
+    },
+    backgroundImage: {
+      "hero-card":
+        "url('/public/images/herocard.png')",
     },
   },
   plugins: [],

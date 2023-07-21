@@ -1,16 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Sidebar = () => {
-  const [nav, setNav] = useState(false);
+
 
   return (
-    <div className="absolute left-0 right-0 bottom-0 top-32 webColor w-full h-[85vh] flex flex-col justify-center items-center navFont gap-14">
-      <div className="cursor-pointer">Home</div>
-      <div className="cursor-pointer">Products</div>
-      <div className="cursor-pointer">Investor</div>
-      <div className="cursor-pointer">About Us</div>
-      <button className="w-44 h-12 bg-[#318458] rounded-3xl">
-        <p className="buynow">BUY NOW</p>
+    <div className="absolute left-0 right-0 bottom-0 top-32 webColor w-full h-[85vh] flex flex-col justify-center items-center navFont gap-12  font-semibold text-2xl text-black font-lato tracking-[-0.63px] ">
+      <div className="cursor-pointer hover:scale-110 duration-200">Home</div>
+      <div className="cursor-pointer hover:scale-110 duration-200">
+        Products
+      </div>
+      <div className="cursor-pointer hover:scale-110 duration-200">
+        Investor
+      </div>
+      <div className="cursor-pointer hover:scale-110 duration-200">
+        About Us
+      </div>
+      <button className="w-44 h-12 bg-[#318458] rounded-3xl hover:scale-105 duration-200">
+        <p className="text-white text-center font-bold text-lg font-sans">
+          BUY NOW
+        </p>
       </button>
     </div>
   );
