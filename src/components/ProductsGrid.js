@@ -51,9 +51,11 @@ function ProductsGrid() {
 
   return (
     <div>
-      <div className="w-[90vw] grid grid-col-3 gap-20">
+      <div className="w-[90vw] mx-auto grid grid-cols-1 md:grid-cols-3 gap-20">
        {items.map(({id,link,text}) => (
-           <Items id={id} link={link} text={text} />
+          
+                <Items id={id} link={link} text={text}/>
+            
        ))}
         </div>
       
