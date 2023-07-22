@@ -2,45 +2,74 @@ import React from "react";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Sidebar from "./Sidebar";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
   return (
-    <div className="w-full h-32 navbar px-4 xl:px-32 pt-5 ">
+    <div className="w-full h-28 navbar px-4 xl:px-20 py-2 ">
       <div className="w-full h-24 webColor items-center justify-between hidden md:inline-flex">
-        <div className="flex justify-center items-center md:gap-10 lg:gap-14 font-semibold text-xl text-black font-lato tracking-[-0.63px] ">
+        <div className="flex justify-center items-center md:gap-12  font-medium text-md text-black font-lato tracking-[-0.63px] ">
           <div>
             <a href="\">
               <img
                 src="https://res.cloudinary.com/dkqxnquga/image/upload/v1689879606/Layer_4_nmkspq.png"
-                className="cursor-pointer w-52" alt="logo"
+                className="cursor-pointer w-44"
+                alt="logo"
               ></img>
             </a>
           </div>
+
           <div className="cursor-pointer hover:scale-110 duration-200">
-            Home
+            <Link onClick={() => setNav(!nav)} to="home" smooth duration={800}>
+              Home
+            </Link>
+          </div>
+
+          <div className="cursor-pointer hover:scale-110 duration-200">
+            <Link
+              onClick={() => setNav(!nav)}
+              to="products"
+              smooth
+              duration={800}
+            >
+              Products
+            </Link>
+          </div>
+
+          <div className="cursor-pointer hover:scale-110 duration-200">
+            <Link
+              onClick={() => setNav(!nav)}
+              to="investor"
+              smooth
+              duration={800}
+            >
+              Investor
+            </Link>
           </div>
           <div className="cursor-pointer hover:scale-110 duration-200">
-            Products
-          </div>
-          <div className="cursor-pointer hover:scale-110 duration-200">
-            Investor
-          </div>
-          <div className="cursor-pointer hover:scale-110 duration-200">
-            About Us
+            <Link
+              onClick={() => setNav(!nav)}
+              to="aboutus"
+              smooth
+              duration={800}
+            >
+              About Us
+            </Link>
           </div>
         </div>
 
-        <button className="w-44 h-12 bg-[#318458] rounded-full hover:scale-105 duration-200">
-          <p className="text-white text-center font-bold text-lg font-sans">
+        <button className="w-36 h-10 bg-[#318458] rounded-full hover:scale-105 duration-200">
+          <p className="text-white text-center font-bold text-md font-sans">
             BUY NOW
           </p>
         </button>
       </div>
-      <div className="w-full h-24 webColor items-center justify-between md:hidden inline-flex">
+      <div className="w-full h-28 webColor items-center justify-between md:hidden inline-flex">
         <img
           src="https://res.cloudinary.com/dkqxnquga/image/upload/v1689879606/Layer_4_nmkspq.png"
-          className="cursor-pointer w-52" alt="logo"
+          className="cursor-pointer w-44"
+          alt="logo"
         ></img>
         <div
           onClick={() => setNav(!nav)}

@@ -2,7 +2,7 @@ import React from "react";
 
 function Investor() {
   return (
-    <div className="py-10 md:pb-40 md:pt-0">
+    <div name="investor" className="py-10 md:pb-40 md:pt-0">
       <div className="w-[90vw] h-fit  flex flex-col justify-start items-center mx-auto">
         <div className="bg-[#318458] rounded-full w-full lg:w-1/3 h-14 flex justify-center items-center">
           <h1 className="text-white font-lato font-bold text-sm md:text-lg 2xl:text-2xl px-auto ">

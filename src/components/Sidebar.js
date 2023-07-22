@@ -4,7 +4,7 @@ const Sidebar = () => {
 
 
   return (
-    <div className="absolute left-0 right-0 bottom-0 top-32 webColor w-full h-[85vh] flex flex-col justify-center items-center navFont gap-12  font-semibold text-2xl text-black font-lato tracking-[-0.63px] ">
+    <div className="absolute left-0 right-0 bottom-0 top-28 webColor w-full h-[90vh] flex flex-col justify-center items-center navFont gap-12  font-semibold text-2xl text-black font-lato tracking-[-0.63px] ">
       <div className="cursor-pointer hover:scale-110 duration-200">Home</div>
       <div className="cursor-pointer hover:scale-110 duration-200">
         Products

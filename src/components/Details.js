@@ -6,7 +6,7 @@ function Details() {
       <img
         src="https://res.cloudinary.com/dkqxnquga/image/upload/v1689919648/Layer_1_fsrrzt.png"
         className="md:w-2/5 "
-        alt="details"
+        alt="HerbalLady"
       ></img>
       <h1 className=" font-lato text-black text-2xl md:text-4xl xl:text-6xl 2xl:text-8xl font-medium leading-[82px] tracking-[-2.7px]">
         ayurvedic
@@ -15,12 +15,12 @@ function Details() {
         </span>
         herbal cosmetics
       </h1>
-      <p className="xl:w-4/5 text-black text-3xl font-normal tracking-[-0.9px] text-center leading-[43px] pt-4 pb-10">
+      <p className="xl:w-4/5 text-black text-2xl sm:text-3xl font-normal sm:tracking-[-0.9px] text-justify sm:text-center sm:leading-[43px] pt-4 pb-10">
         We craft natural herbal cosmetics, harnessing the power of botanicals.
         Our products enhance your beauty while nurturing your skin, leaving you
         with a radiant, healthy, and naturally glowing complexion.
       </p>
-      <button className="w-64 h-16 bg-[#318458] rounded-full hover:scale-105 duration-200">
+      <button type="submit" className="w-64 h-16 bg-[#318458] rounded-full hover:scale-105 duration-200">
         <p className="text-white text-center font-bold text-2xl font-sans">
           BUY NOW
         </p>

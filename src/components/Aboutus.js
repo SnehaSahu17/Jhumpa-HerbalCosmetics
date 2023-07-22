@@ -2,7 +2,7 @@ import React from "react";
 
 function Aboutus() {
   return (
-    <div className="pb-10 md:pb-40 md:pt-0">
+    <div name="aboutus" className="pb-10 md:pb-40 md:pt-0">
       <div className="w-[90vw] h-fit  flex flex-col justify-start items-center mx-auto">
         <p className="text-black font-lato text-3xl md:text-7xl 2xl:text-9xl font-bold leading-[82px] tracking-[-1.1px]">
           Meet the <span className="text-[#318458] ">Herbal</span> team
