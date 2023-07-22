@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="w-full h-full webColor relative">
       <Navbar />
-      {/* <Home />
-      <Products />  */}
+       <Home />
+      {/* <Products />   */}
       {/* <ProdOne/>
       <ProdTwo/>
       <ProdThree/>

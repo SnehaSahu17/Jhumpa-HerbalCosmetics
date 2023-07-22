@@ -7,8 +7,8 @@ import { Link } from "react-scroll";
 function Navbar() {
   const [nav, setNav] = useState(false);
   return (
-    <div className="w-full h-28 navbar px-4 xl:px-20 py-2 ">
-      <div className="w-full h-24 webColor items-center justify-between hidden md:inline-flex">
+    <div className="w-full h-24 navbar px-4 xl:px-20 py-2 ">
+      <div className="w-full h-20 webColor items-center justify-between hidden md:inline-flex">
         <div className="flex justify-center items-center md:gap-12  font-medium text-md text-black font-lato tracking-[-0.63px] ">
           <div>
             <a href="\">
@@ -60,7 +60,7 @@ function Navbar() {
         </div>
 
         <button className="w-36 h-10 bg-[#318458] rounded-full hover:scale-105 duration-200">
-          <p className="text-white text-center font-bold text-md font-sans">
+          <p className="text-white text-center font-bold text-sm font-lato">
             BUY NOW
           </p>
         </button>
