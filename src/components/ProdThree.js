@@ -8,31 +8,31 @@ function ProdThree() {
           <div className=" ml-28 xl:ml-44 w-1/5 h-80 xl:h-[500px] 2xl:h-[594px] bg-[#237B14]  blur-[47px]"></div>
           <img
             src="https://res.cloudinary.com/dkqxnquga/image/upload/v1689970519/image-removebg-preview_1_-D9rpECpiN-transformed_1_y5islv.png"
-            className=" w-[72%] xl:w-[75%]  absolute -top-20 xl:-top-32 2xl:-top-36 left-14 xl:left-24   mx-auto z-10 blur-0"
+            className=" w-[72%] xl:w-[75%]   absolute -top-20 xl:-top-32 2xl:-top-36 left-14 xl:left-24   mx-auto z-10 blur-0"
             alt="prodOne"
           ></img>
         </div>
         <div className="flex flex-col items-start justify-center md:py-10 ">
-          <h1 className="text-black mx-auto md:mx-0 font-lato text-4xl font-medium ">
+          <h1 className="text-black mx-auto md:mx-0 font-lato text-3xl font-medium">
             natural
           </h1>
-          <h1 className="text-black mx-auto md:mx-0 font-lato text-4xl sm:text-6xl font-bold 2xl:leading-[82px] md:tracking-[-1.1px]">
+          <h1 className="text-black mx-auto md:mx-0 font-lato text-5xl sm:text-7xl font-bold ">
             Moringa leaves
           </h1>
           <img
             src="https://res.cloudinary.com/dkqxnquga/image/upload/v1689970518/herbal_tkfdil.png"
-            className="mx-auto md:mx-0"
+            className="mx-auto md:mx-0 w-40"
             alt="prodOne"
           ></img>
 
-          <p className="text-black text-2xl 2xl:text-3xl text-justify md:text-left font-normal 2xl:leading-[43px] tracking-[-0.9px] mt-4 ">
+          <p className="text-black text-xl  text-justify md:text-left font-thin font-lato mt-4 ">
             Discover the transformative power of our Mixed Herb Herbal Hair Oil.
             Enriched with a blend of potent herbs, it revitalizes and nourishes
             your hair, promoting strength, shine, and overall hair health.
             Experience the beauty of nature in every drop.
           </p>
           <button className="w-44 h-12 bg-[#318458] rounded-full hover:scale-105 duration-200 mx-auto md:mx-0 mt-4">
-            <p className="text-white text-center font-bold text-lg font-sans">
+            <p className="text-white text-center font-bold text-lg font-lato">
               BUY NOW
             </p>
           </button>

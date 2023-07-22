@@ -14,8 +14,8 @@ function App() {
     <div className="w-full h-full webColor relative">
       <Navbar />
        <Home />
-      {/* <Products />   */}
-      {/* <ProdOne/>
+       <Products />   
+      <ProdOne/>
       <ProdTwo/>
       <ProdThree/>
       <Investor/>
@@ -23,7 +23,7 @@ function App() {
 
       <div className="bg-[#173D28]">
         <Footer />
-      </div> */}
+      </div>  
     </div>
   );
 }
